@@ -79,3 +79,25 @@ footer .footer {
     padding: 1rem;
     text-align: center;
 }
+/* images side by side */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+figure {
+    margin: 10px; /* Optional spacing between images */
+}
+/* place this to prevent error in code on validator */
+.h2 {
+   display:none;
+}
+
+img:hover {
+    box-shadow: 0 0 50px black;
+}
+
+
+
+
