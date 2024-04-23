@@ -1,3 +1,4 @@
+/* index page */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -36,4 +37,45 @@ footer {
     padding: 1rem;
     text-align: center;
 }
- 
+
+/* about page */
+
+body .body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+
+header .header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+main .main {
+    padding: 2rem;
+}
+
+section .section {
+    margin-bottom: 2rem;
+}
+
+footer .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
