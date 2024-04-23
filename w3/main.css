@@ -97,6 +97,15 @@ figure {
 img:hover {
     box-shadow: 0 0 50px black;
 }
+/* on reference page */
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+.reference {
+    color: red;
+}
+
 
 
 
