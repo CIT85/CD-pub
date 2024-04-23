@@ -1,0 +1,7 @@
+1)cd CD-pri
+2) git status
+
+git add * or git add filename
+git commit -m "learning about work flow"
+git push
+
