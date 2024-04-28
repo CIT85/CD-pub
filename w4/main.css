@@ -105,6 +105,73 @@ footer ul {
 .reference {
     color: red;
 }
+.home li a {
+color: #4caf50;
+font-size: 1.5em;
+}
+.welcome {
+    border-top: 5px solid green;
+    /* width: 100%; */
+    /* outline: 5px solid purple;
+    outline-offset: 5px;  */
+    padding: 10px; 
+}
+
+/* table */
+/* Styling for the history table */
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+.history-table th,
+.history-table td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+.history-table th {
+    background-color: #FF5733; /* Fun orange color */
+    color: white;
+}
+
+.history-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternating row colors */
+}
+
+.history-table tr:hover {
+    background-color: #ddd; /* Hover effect */
+}
+/* for trend table */
+/* Styling for the trends table */
+.trends-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+.trends-table th,
+.trends-table td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+.trends-table th {
+    background-color: #4CAF50; /* Fun green color */
+    color: white;
+}
+
+.trends-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternating row colors */
+}
+
+.trends-table tr:hover {
+    background-color: #ddd; /* Hover effect */
+}
+
+
+
 
 
 

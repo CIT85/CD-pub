@@ -5,16 +5,16 @@
         <meta charset="UTF-8">
         <meta name="author" content="Curtis Daniels">
         <meta name="description" content="Hi, I'm Curtis Daniels this my About page ">
-        <title>About Curtis Daniels</title>
+        <title>Week 4 css group work</title>
         <link rel="icon" href="html.png" type="image/x-icon">
         <link rel="stylesheet" href="main.css" type="text/css">
     </head>
 
 <body>
     <header class="header">
-        <h1>About Curtis Daniels</h1>
+        <h1 class="welcome">About Curtis Daniels</h1>
         <nav>
-            <ul>
+            <ul class="home">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
@@ -31,6 +31,49 @@
             <h2>Using ChatGPT for Research</h2>
             <p>As an aspiring web developer, I find ChatGPT to be an invaluable tool for researching various topics related to web development and technology. Its ability to provide instant and relevant information based on my queries allows me to delve deeper into complex concepts and stay updated with the latest trends in the industry.</p>
         </section>
+        <section class="section line">
+            <h2>Contact Curtis Daniels</h2>
+            <form action="https://httpbin.org/post" method="post">
+                <!-- Text Input -->
+                <fieldset>
+                <legend>Contact Information</legend>    
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+        
+                <!-- Email Input -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+        
+                <!-- Number Input -->
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="0" max="120"><br>
+            </fieldset>
+        
+                <!-- Radio Button Input -->
+                <fieldset>
+                
+              
+                <legend>Preferred Contact Method:</legend>
+                <input type="radio" id="emailContact" name="contactMethod" value="email" checked>
+                <label for="emailContact">Email</label><br>
+                <input type="radio" id="phoneContact" name="contactMethod" value="phone">
+                <label for="phoneContact">Phone</label><br>
+        
+                <!-- Dropdown Select -->
+                <label for="interest">Interest:</label>
+                <select id="interest" name="interest">
+                    <option value="webDev">Web Development</option>
+                    <option value="dataSci">Data Science</option>
+                    <option value="cyberSec">Cybersecurity</option>
+                    <option value="other">Other</option>
+                </select><br>
+        
+                <!-- Submit Button -->
+                <input type="submit" value="Submit">
+            </fieldset>
+            </form>
+        </section>
+        
     </main>
 
     <footer class="footer">
