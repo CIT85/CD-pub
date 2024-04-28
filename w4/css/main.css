@@ -1,0 +1,257 @@
+/* index page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* about page */
+
+body .body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+
+header .header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+main .main {
+    padding: 2rem;
+}
+
+section .section {
+    margin-bottom: 2rem;
+}
+
+footer .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+/* images side by side */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+figure {
+    margin: 10px; /* Optional spacing between images */
+}
+/* place this to prevent error in code on validator */
+.h2 {
+   display:none;
+}
+
+img:hover {
+    box-shadow: 0 0 50px black;
+}
+/* on reference page */
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+.reference {
+    color: red;
+}
+
+.welcome {
+    border-top: 5px solid green;
+    /* width: 100%; */
+    /* outline: 5px solid purple;
+    outline-offset: 5px;  */
+    padding: 10px; 
+}
+
+/* table */
+/* Styling for the history table */
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+.history-table th,
+.history-table td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+.history-table th {
+    background-color: #FF5733; /* Fun orange color */
+    color: white;
+}
+
+.history-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternating row colors */
+}
+
+.history-table tr:hover {
+    background-color: #ddd; /* Hover effect */
+}
+/* for trend table */
+/* Styling for the trends table */
+.trends-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+.trends-table th,
+.trends-table td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+.trends-table th {
+    background-color: #4CAF50; /* Fun green color */
+    color: white;
+}
+
+.trends-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternating row colors */
+}
+
+.trends-table tr:hover {
+    background-color: #ddd; /* Hover effect */
+}
+
+/* site map */
+
+   /* Style the container to create two columns */
+   /* .list-container {
+    display: flex; */
+    /* justify-content: space-between;  */
+/* } */
+
+/* Optional: Style each list to add padding or margins as desired */
+ul .box  {
+    padding: 0;
+    list-style-type: none; 
+}
+
+li .list {
+    padding: 5px 0;  
+}
+
+.bold {
+    font-weight: bold;
+}
+
+ .palette1 {
+    background-color: #F1AB86;
+    width: 200;
+    height: 200;
+    color: #041F1E;
+}
+.palette2 {
+    background-color:#2e4057;
+    width: 200;
+    height: 200;
+    color: #041F1E;
+}
+.palette3 {
+    background-color:#f75c03;
+    width: 200;
+    height: 200;
+    color: #041F1E;
+}
+.palette4 {
+    background-color:#0096c7;
+    width: 200;
+    height: 200;
+    color: #041F1E;
+}
+.palette5 {
+    background-color:#f1c40f;
+    width: 200;
+    height: 200;
+    color: #041F1E;
+}
+.sitemap {
+    color: dodgerblue;
+}
+.sitemap:visited {
+    color: purple;
+}
+.sitemap:active {
+    color: red;
+}
+.sitemap:hover {
+    color: white;
+}
+
+.home li a {
+
+    color: #4caf50;
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
