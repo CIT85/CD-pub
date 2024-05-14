@@ -1,0 +1,243 @@
+/* Dosis - Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+* {
+    font-family: dosis, Helvetica, arial, sans-serif;
+}
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* Header styles */
+
+header {
+    background-color: #8dc63f;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+    
+ 
+}
+/* I've add display flex to the Ul to keep the same style. If i just put the flex on the header the  header wouldn't look right, Also I placedjustify-content: start but dont need the start.   */
+header .list {
+    display: flex;
+    justify-content: start;
+   
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Main styles */
+/* here I placed all the content in a column, these items are placed in the flex container */
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+figure {
+    margin-bottom: 20px;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    font-style: italic;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.bar {
+    background: #61933e;
+    border-bottom: 2px solid #61933e ;
+    height: 36px; 
+    
+}
+/* current page */
+.stay {
+color: red;
+}
+/* footer color links */
+.footer_link {
+    color:#8dc63f;
+}
+
+/* lost dog search car */
+.boldletters {
+    font-weight: bold;
+}
+.search {
+    margin-bottom: 10px;
+}
+/* colors for my site map */
+.one {
+    background-color: #344e41;
+    width: 50%;
+    height: 1rem;
+}
+.two {
+    background-color: #0077b6;
+    width: 50%;
+    height: 1rem;
+}
+.three {
+    background-color: #c1121f;
+    width: 50%;
+    height: 1rem;
+}
+.four {
+    background-color: #003049;
+    width: 50%;
+    height: 1rem;
+}
+.five {
+    background-color: #83c5be;
+    width: 50%;
+    height: 1rem;
+}
+/* hiding h2 for site map to prevent error in validation  */
+.disappear {
+    display: none;
+}
+
+/* location page */
+/* created location page to nativation for lost logs */
+/* this display flex is making the columns lool inline */
+.container {
+    display: flex;
+   
+     
+  }
+  /* this flex 1 gives size of all of the other elements will have the same width as their content */
+  .column {
+    flex: 1;
+    margin: 0 10px;
+   
+  }
+  /*  */
+  ul .location {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul .location li {
+    margin-bottom: 10px;
+    
+  }
+
+  /* making the links more user friendly */
+  ul li a {
+    text-decoration:none ;
+    
+    
+  }
+  ul li a:hover, a:focus {
+    text-decoration:underline;
+    
+  }
+  ul li  a:active {
+    color: red;
+    
+  }
+ 
+
+/* taking away the undersline */
+.find {
+    text-decoration: none;
+    color: dodgerblue;
+}
+/* add this to prevent error when validation */
+/* the error message says: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. */
+.findyourdog {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
